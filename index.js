@@ -363,7 +363,7 @@ axios.get(`https://animechanapi.xyz/api/quotes?anime=${teks}`).then((res) => {
 if (text.includes('#tagme')) {
  var nomor = m.participant
  const options = {
-       text: `@${nomor.split("@s.whatsapp.net")[0]} tagged!`,
+       text: `@${nomor.split("@s.whatsapp.net")[0]} marcado hehe!`,
        contextInfo: { mentionedJid: [nomor] }
  }
  conn.sendMessage(id, options, MessageType.text)
